@@ -2,8 +2,6 @@
 
 **BactoFold-ESM** is a public-data-only starter project for predicting bacterial / *E. coli* protein solubility, aggregation risk, and chaperone-rescue potential from protein sequence.
 
-This repo is designed as a clean GitHub project you can build without using unpublished lab data.
-
 ## Core idea
 
 Most “bacterial protein folding” labels are not direct folding-pathway measurements. They are practical proxies:
@@ -13,7 +11,7 @@ Most “bacterial protein folding” labels are not direct folding-pathway measu
 - aggregation-prone vs not aggregation-prone
 - rescue by bacterial chaperones such as Trigger Factor, GroEL/ES, or DnaK/DnaJ/GrpE
 
-The first milestone is intentionally simple:
+The first milestone:
 
 > Train a sequence-feature baseline on public solubility data, then add protein language model embeddings as an optional second stage.
 
@@ -49,7 +47,7 @@ GitHub:
 https://github.com/teevee112/NetSolP-1.0
 ```
 
-## Recommended project roadmap
+## Project roadmap
 
 ### Milestone 1: eSOL baseline
 
@@ -99,7 +97,7 @@ Generic solubility prediction is crowded. The more interesting biological angle 
 
 > Can protein sequence features predict which aggregation-prone bacterial proteins are rescued by specific chaperone systems?
 
-That turns the project from “another solubility classifier” into a bacterial folding/chaperone-rescue benchmark.
+That turns the project into a bacterial folding/chaperone-rescue benchmark.
 
 ## Repository structure
 
