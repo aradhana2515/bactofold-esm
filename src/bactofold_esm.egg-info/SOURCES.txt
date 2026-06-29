@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/bactofold/__init__.py
+src/bactofold/cli.py
+src/bactofold/datasets.py
+src/bactofold/embeddings.py
+src/bactofold/fasta.py
+src/bactofold/features.py
+src/bactofold/modeling.py
+src/bactofold_esm.egg-info/PKG-INFO
+src/bactofold_esm.egg-info/SOURCES.txt
+src/bactofold_esm.egg-info/dependency_links.txt
+src/bactofold_esm.egg-info/entry_points.txt
+src/bactofold_esm.egg-info/requires.txt
+src/bactofold_esm.egg-info/top_level.txt
+tests/test_features.py
