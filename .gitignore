@@ -11,3 +11,11 @@ reports/*.csv
 reports/figures/*
 
 !data/README.md
+
+# Generated data and models
+data/raw/*
+data/processed/*.csv
+data/embeddings/*
+models/*.joblib
+reports/tables/*.csv
+reports/figures/*.png
