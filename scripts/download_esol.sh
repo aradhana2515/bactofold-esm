@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
+
 mkdir -p data/raw
-curl -L "https://dbarchive.biosciencedbc.jp/data/esol/LATEST/esol.zip" -o data/raw/esol.zip
-ls -lh data/raw/esol.zip
+
+echo "Download eSOL data manually from the eSOL database page for now."
+echo "Place the archive or table files in data/raw/esol/"
+echo "Next step: replace this script with a direct download once the exact file URL is confirmed."
+
